@@ -43,6 +43,3 @@ Download `SimClips-Setup-X.Y.Z.exe` from [Releases](../../releases) and run it (
 SmartScreen warns you: **More info > Run anyway** (the beta isn't code-signed yet). Requires Windows 10/11 64-bit,
 iRacing or Le Mans Ultimate and OBS Studio 30+. Feedback: **Home > Send feedback** in the app, or the
 [form](https://forms.gle/5M6qxTMcAyARh3pg9).
-
-<!-- Este repo tiene que ser público: la app consulta los releases sin iniciar sesión. -->
-# simclips-releases
