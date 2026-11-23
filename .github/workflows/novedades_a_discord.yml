@@ -1,0 +1,25 @@
+# Avisa en #novedades de Discord cada vez que se publica una versión.
+# Va en el repo PÚBLICO de releases (marcogff/simclips-releases), en la ruta  .github/workflows/novedades_a_discord.yml
+# Necesita un secreto del repo:  DISCORD_WEBHOOK_NOVEDADES  (Settings > Secrets and variables > Actions > New secret)
+# con la URL del webhook de #novedades (Discord: el canal > Editar canal > Integraciones > Webhooks > Nuevo webhook).
+name: Avisar en Discord
+on:
+  release:
+    types: [published]
+jobs:
+  discord:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mandar a #novedades
+        env:
+          WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_NOVEDADES }}
+          NOMBRE: ${{ github.event.release.name }}
+          TAG: ${{ github.event.release.tag_name }}
+          CUERPO: ${{ github.event.release.body }}
+          URL: ${{ github.event.release.html_url }}
+        run: |
+          if [ -z "$WEBHOOK" ]; then echo "No hay webhook configurado: no se avisa."; exit 0; fi
+          TITULO="${NOMBRE:-SimClips $TAG}"
+          TEXTO="**🏁 $TITULO**"$'\n'"${CUERPO:0:1500}"$'\n\n'"Descarga: $URL"
+          jq -n --arg c "$TEXTO" '{content: $c, allowed_mentions: {parse: []}}' \
+            | curl -sS -f -H "Content-Type: application/json" -d @- "$WEBHOOK"
