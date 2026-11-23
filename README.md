@@ -24,9 +24,17 @@ instaladores; el código está en un repo privado aparte.
 **Necesitás:** Windows 10 u 11 (64 bits), iRacing o Le Mans Ultimate y [OBS Studio](https://obsproject.com/) 28 o
 más nuevo (con OBS 30 o más nuevo, SimClips también puede elegir la carpeta de grabación). Recomendado: placa NVIDIA (graba y arma los videos mucho más rápido).
 
+## Cómo se usa
+
+Abrí OBS y SimClips y corré como siempre: graba solo cuando larga la carrera. **En iRacing, si querés las
+repeticiones con otras cámaras, tenés que esperar un rato después de la bandera:** salí del auto al garage **sin salir de la sesión** y
+esperá los pitidos; SimClips maneja el replay y graba cada momento (de 1 a 3 minutos, sin tocar iRacing) y recién después arma los reels y te avisa. Si no querés
+esperar, el botón "Cortar los replays" arma los reels ya, con la cámara de tu auto. En Le Mans Ultimate no hay replays: arma los reels al terminar.
+El paso a paso completo está en la guía.
+
 ## Contanos qué anda y qué no
 
-Desde la app: **Inicio > Enviar feedback**. Se manda directo, con unos datos técnicos para entender el problema (sin
+Desde la app: **Inicio > Enviar feedback**: un solo cuadro con las áreas ya escritas; completás las que quieras (o pegás todo junto) y lo vacío no se manda. Se manda directo, con unos datos técnicos para entender el problema (sin
 contraseñas); si no puede, abre el [formulario](https://docs.google.com/forms/d/e/1FAIpQLSfraF8IBol4JW6nWH5HaUnpEQeUHKiINNZQDuPwzSDG2S8N4w/viewform) con tu texto ya copiado. Además guarda en tu escritorio un
 paquete de diagnóstico (.zip) con tiempos y fallas, **sin datos personales y sin mandarse solo**: si querés, pasáselo a
 quien te dio SimClips. Una captura o un video corto ayuda un montón.
@@ -50,7 +58,9 @@ anyway** (the beta isn't code-signed yet). Requires Windows 10/11 64-bit, iRacin
 [OBS Studio](https://obsproject.com/) 28 or newer (with OBS 30+, SimClips can also set the recording folder).
 Recommended: an NVIDIA GPU.
 
-Feedback: **Home > Send feedback** in the app. It's sent directly, with some technical details to understand the
+How to use it: open OBS and SimClips and race as usual; it records on its own. **On iRacing, if you want the replays from other cameras, you have to wait a while after the flag:** leave the car to the garage **without leaving the session** and wait for the beeps; SimClips drives the replay and records each moment (1 to 3 minutes, don't touch iRacing) and only then builds the reels and tells you. If you don't want to wait, the "Stop the replays" button builds the reels right away with your car's camera. Le Mans Ultimate has no replays: it builds the reels when the race ends.
+
+Feedback: **Home > Send feedback** in the app: a single box with the areas already written; fill in the ones you want (or paste everything together) and empty ones aren't sent. It's sent directly, with some technical details to understand the
 problem (no passwords); if it can't, it opens the [form](https://docs.google.com/forms/d/e/1FAIpQLSfraF8IBol4JW6nWH5HaUnpEQeUHKiINNZQDuPwzSDG2S8N4w/viewform) with your text already copied. It also saves a
 diagnostic package (.zip) with timings and failures on your desktop, **with no personal data and never sent by
 itself**: if you want, give it to whoever gave you SimClips. A screenshot or a short video helps a lot.
