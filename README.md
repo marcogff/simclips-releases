@@ -38,6 +38,7 @@ Desde la app: **Inicio > Enviar feedback**: un solo cuadro con las áreas ya esc
 contraseñas); si no puede, abre el [formulario](https://docs.google.com/forms/d/e/1FAIpQLSfraF8IBol4JW6nWH5HaUnpEQeUHKiINNZQDuPwzSDG2S8N4w/viewform) con tu texto ya copiado. Además guarda en tu escritorio un
 paquete de diagnóstico (.zip) con tiempos y fallas, **sin datos personales y sin mandarse solo**: si querés, pasáselo a
 quien te dio SimClips. Una captura o un video corto ayuda un montón.
+También podés escribirle directo a Marco (Instagram: [@marcograffi_racing](https://instagram.com/marcograffi_racing)): un bug, una idea, una duda o un audio, todo sirve.
 
 ## Actualizaciones
 
@@ -64,6 +65,7 @@ Feedback: **Home > Send feedback** in the app: a single box with the areas alrea
 problem (no passwords); if it can't, it opens the [form](https://docs.google.com/forms/d/e/1FAIpQLSfraF8IBol4JW6nWH5HaUnpEQeUHKiINNZQDuPwzSDG2S8N4w/viewform) with your text already copied. It also saves a
 diagnostic package (.zip) with timings and failures on your desktop, **with no personal data and never sent by
 itself**: if you want, give it to whoever gave you SimClips. A screenshot or a short video helps a lot.
+You can also message Marco directly (Instagram: [@marcograffi_racing](https://instagram.com/marcograffi_racing)): a bug, an idea, a question or a voice note, anything helps.
 
 Updates: SimClips checks this repo when it opens and every 12 hours (installer builds only). When there is a new
 version it tells you and installs with one click, after checking the file matches the published SHA-256.
