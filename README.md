@@ -28,7 +28,7 @@ Todas las versiones, están en [Releases](../../releases).
 
 ## Instalar
 
-1. Bajá el instalador con el botón de **Descargar** de arriba (o de [Releases](../../releases): `SimClips-Setup-X.Y.Z.exe`
+1. Bajá el instalador de [Releases](../../releases): `SimClips-Setup-X.Y.Z.exe`
    de la versión más nueva; las de la beta aparecen como "Pre-release").
 2. Ejecutalo. No pide permisos de administrador. Te pregunta si querés un acceso directo en el escritorio y si querés
    que SimClips se abra con Windows (las dos son opcionales).
