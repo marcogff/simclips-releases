@@ -13,10 +13,7 @@ instaladores; el código está en un repo privado aparte.
 
 ## Descargar
 
-### [⬇ Descargar SimClips 0.7.4 para Windows](https://github.com/marcogff/simclips-releases/releases/download/v0.7.4/SimClips-Setup-0.7.4.exe)
-
-Es el instalador (`SimClips-Setup-0.7.4.exe`). Después seguí los pasos de [Instalar](#instalar). Si preferís ver todas las
-versiones, están en [Releases](../../releases).
+Todas las versiones, están en [Releases](../../releases).
 
 ## Qué necesitás
 
@@ -110,8 +107,8 @@ registros; tus grabaciones y reels no se borran nunca.
 
 ### English
 
-**[⬇ Download SimClips 0.7.4 for Windows](https://github.com/marcogff/simclips-releases/releases/download/v0.7.4/SimClips-Setup-0.7.4.exe)** (the installer, `SimClips-Setup-0.7.4.exe`; all versions are in
-[Releases](../../releases)).
+
+All versions are in [Releases](../../releases)).
 
 SimClips automatically turns your iRacing and Le Mans Ultimate races into short videos: it records with OBS, reads the
 telemetry and cuts the best moments (overtakes, battles, spins, start and finish) with your webcam, replays from other
