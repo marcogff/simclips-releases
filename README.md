@@ -108,7 +108,7 @@ registros; tus grabaciones y reels no se borran nunca.
 ### English
 
 
-All versions are in [Releases](../../releases)).
+All versions are in [Releases](../../releases).
 
 SimClips automatically turns your iRacing and Le Mans Ultimate races into short videos: it records with OBS, reads the
 telemetry and cuts the best moments (overtakes, battles, spins, start and finish) with your webcam, replays from other
